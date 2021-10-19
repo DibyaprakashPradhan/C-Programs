@@ -1,4 +1,4 @@
-//program to print stars in upside triangle pattern
+//program to print stars in upside equilateral triangle pattern
 
 #include<stdio.h>
 int main(){
