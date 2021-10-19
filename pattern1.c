@@ -1,8 +1,11 @@
 #include<stdio.h>
 int main(){
-	int a=6;
-	int b=8;
+	int a=0,b=0;
+	printf("Enter a number to multiply : ");
+	scanf("%d",&a);
+	printf("Enter another number to multiply with %d :",a);
+	scanf("%d",&b);
 	int c=a*b;
-	printf("%d\n",c);
+	printf("%d * %d = %d\n",a,b,c);
 
 }
