@@ -1,11 +1,20 @@
+//program to print stars in upside triangle pattern
+
 #include<stdio.h>
 int main(){
-	int a=0,b=0;
-	printf("Enter a number to multiply : ");
-	scanf("%d",&a);
-	printf("Enter another number to multiply with %d :",a);
-	scanf("%d",&b);
-	int c=a*b;
-	printf("%d * %d = %d\n",a,b,c);
-
+	int i,j,k;
+	int a=7;
+	for(i=1;i<=a;i++){
+            //to print spaces in reverse triangle
+        for(j=a-i;j>=1;j--){
+            printf(" ");
+        }
+            //to print stars in triangle
+        for(k=1;k<=(2*i)-1;k++){
+            printf("*");
+        }
+            //to move next line
+        printf("\n");
+	}
+    return 0;
 }
